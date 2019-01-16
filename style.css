@@ -30,6 +30,12 @@ body{
         position: relative;
         left: 45%;
     }
+    .about{
+        width: 100%;
+        height: 50px;
+        background: #333;
+        margin-top:220px;   
+    }
 }
 #youtube{
     width: 35px;
