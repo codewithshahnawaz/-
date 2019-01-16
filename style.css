@@ -37,11 +37,32 @@ body{
     margin-top: 6px;
 }
 .carousel-caption .btn-primary{
-    margin-bottom: 25%;
+    margin-bottom: 15%;
     width: 150px;
     height: 50px;
 }
 #slide3{
     width: 100%;
     height: 415px;
+    clear: both;
+}
+#slide-box {
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 20px grey; 
+    overflow: hidden;
+}
+
+
+.about{
+    width: 100%;
+    height: 50px;
+    background: #333;
+    margin-top:100px;   
+}
+#h2 {
+    color: white;
+    line-height: 50px;
 }
