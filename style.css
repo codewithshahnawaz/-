@@ -79,8 +79,48 @@ body{
 }
 .social-sites{
     position: relative;
-    bottom: 50px;
+    bottom: 0   px;
 }
 .navbar-default{
     height: 50px;
+}
+.stars{
+    transform: rotateY(180deg);
+    display:flex;
+    margin-right: 85px;
+}
+.stars input{
+    display: none;
+    direction: rtl;
+}
+.stars label {
+    display: block;
+    cursor: pointer;
+    width: 50px;
+}
+.stars label:before{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: relative;
+    display: block;
+    font-size: 25px;
+    color: #101010;
+}
+.stars label:after{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 25px;
+    color: gold;
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+
+}
+.stars label:hover:after,
+.stars label:hover ~ label::after,
+.stars input:checked ~ label::after{
+    opacity: 1;
 }
