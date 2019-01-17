@@ -26,9 +26,10 @@ body{
         margin-right: 10px;
         margin-left: 10px;
     }
-    #github,#youtube{
+    .social-sites{
         position: relative;
         left: 45%;
+    }
     }
     .about{
         width: 100%;
@@ -70,4 +71,16 @@ body{
 #h2 {
     color: white;
     line-height: 50px;
+}
+#blog {
+    position: relative;
+    left: 5px;
+    top: 2px;
+}
+.social-sites{
+    position: relative;
+    bottom: 50px;
+}
+.navbar-default{
+    height: 50px;
 }
