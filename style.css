@@ -18,7 +18,7 @@ body{
 @media screen and (max-width:780px){
     .stars{
         position: relative;
-        left: 75%;
+        left: 55%;
         padding-left: 15px;
         margin-left: 5px;
         letter-spacing:5px;
